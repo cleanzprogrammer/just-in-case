@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<title>ASCII Converter</title>
+		<link rel="stylesheet" href="master.css" media="screen">
+		<link rel="stylesheet" href="convertermaster.css" media="screen">
+		<script class="u-script" src="master.js" defer=""></script>
+		<script class="u-script" src="ascii.js" defer=""></script>
+		<link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">	
+		<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"name": "",
+			"sameAs": []
+		}
+		</script>
+		<meta name="theme-color" content="#e67b13">
+		<meta property="og:title" content="Home">
+		<meta property="og:type" content="website">
+	</head>
+</head>
+  <body>
+	<section class="u-clearfix u-grey-90 u-section-0">
+	  <div class="u-clearfix u-sheet u-sheet-1">
+		<header>
+		  <h1 style="text-align:center" class="u-text u-text-1">ASCII Converter</h1>
+		</header>
+	  </div>
+	</section>
+	
+	<section class="u-clearfix u-grey-90 u-section-1">
+	  <div class="u-clearfix u-sheet u-sheet-1">
+		<div class="u-clearfix u-expanded-width u-gutter-30 u-layout-spacing-vertical u-layout-wrap u-layout-wrap-1">
+		  <div class="u-layout-row">
+			<form>
+				<input id="inputdec" type="number" placeholder="Enter any number between 0 and 127" style="color:black" size="40"/>
+				
+				<button type="button" class="u-btn u-button-style u-palette-2-base u-btn-1" target="_blank" onclick="return decToASCII();">Convert</button>
+				<div class="u-border-7 u-border-palette-2-base u-line u-line-horizontal u-line-1"/></div>
+
+				<h1 class="u-text u-text-3">ASCII Value:</h1>
+				<h2 class="u-text u-text-4" id="char"></h2>
+			</form>
+		  </div>
+		</div>
+	  </div>
+	</section>
+
+	<section class="u-backlink u-clearfix u-grey-80">
+	  <p class="u-text">
+		<span><a href="project.html">BACK TO PROJECT</a></span>
+	  </p>
+	</section>
+
+</body>
+</html>
